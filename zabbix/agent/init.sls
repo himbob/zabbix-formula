@@ -1,3 +1,4 @@
+#test forked-branched-dev
 {% from "zabbix/map.jinja" import zabbix with context -%}
 {% set settings = salt['pillar.get']('zabbix-agent', {}) -%}
 {% set defaults = zabbix.get('agent', {}) -%}
